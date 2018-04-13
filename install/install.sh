@@ -121,7 +121,7 @@ if [[ $remove ]]; then
 	echo "not compiling before uninstall"
 else
 	cd /home/pi/
-	git clone https://github.com/ChristopheJacquet/PiFmRds.git
+	git clone https://github.com/SaucySoliton/PiFmRds.git
 	cd PiFmRds/src
 	make clean
 	make
